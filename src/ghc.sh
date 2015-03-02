@@ -413,7 +413,7 @@ symlink_ghc_i386_libs () {
 			return 1
 		fi
 		;;
-	'linux-debian-7'*|'linux-ubuntu-14'*)
+	'linux-debian-7'*|'linux-ubuntu-13'*|'linux-ubuntu-14'*)
 		gmp_file='/usr/lib/i386-linux-gnu/libgmp.so.10'
 		tinfo_file='/lib/i386-linux-gnu/libtinfo.so.5'
 		if (( ghc_major < 7 || ghc_minor < 8 )); then

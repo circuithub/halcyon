@@ -91,7 +91,7 @@ install_os_packages () {
 				apt-get install -y build-essential git libgmp3c2 pigz zlib1g-dev" || return 1
 		fi
 		;;
-	'linux-ubuntu-14'*)
+	'linux-ubuntu-13'*|'linux-ubuntu-14'*)
 		sudo bash -c "apt-get update &&
 			apt-get install -y build-essential git pigz zlib1g-dev" || return 1
 		;;
