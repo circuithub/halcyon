@@ -15,7 +15,7 @@ map_ghc_version_to_source_url () {
 	'7.8.4')	echo 'https://downloads.haskell.org/~ghc/7.8.4/ghc-7.8.4-src.tar.xz';;
 	'7.10.1')	echo 'https://downloads.haskell.org/~ghc/7.10.1/ghc-7.10.1-src.tar.xz';;
 	'7.10.2')	echo 'http://downloads.haskell.org/~ghc/7.10.2/ghc-7.10.2-src.tar.bz2';;
-	'7.10.3')	echo 'http://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3a-src.tar.bz2';;
+	'7.10.3')	echo 'http://downloads.haskell.org/~ghc/7.10.3/ghc-7.10.3b-src.tar.bz2';;
 	*)
 		log_error "Unsupported GHC version: ${ghc_version}"
 		return 1
