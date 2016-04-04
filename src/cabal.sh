@@ -17,6 +17,9 @@ map_cabal_version_to_original_url () {
 	'1.22.4.0')	echo 'https://haskell.org/cabal/release/cabal-install-1.22.4.0/cabal-install-1.22.4.0.tar.gz';;
 	'1.22.5.0')	echo 'https://haskell.org/cabal/release/cabal-install-1.22.5.0/cabal-install-1.22.5.0.tar.gz';;
 	'1.22.6.0')	echo 'https://haskell.org/cabal/release/cabal-install-1.22.6.0/cabal-install-1.22.6.0.tar.gz';;
+	'1.22.7.0')	echo 'https://haskell.org/cabal/release/cabal-install-1.22.7.0/cabal-install-1.22.7.0.tar.gz';;
+	'1.22.8.0')	echo 'https://haskell.org/cabal/release/cabal-install-1.22.8.0/cabal-install-1.22.8.0.tar.gz';;
+	'1.22.9.0')	echo 'https://haskell.org/cabal/release/cabal-install-1.22.9.0/cabal-install-1.22.9.0.tar.gz';;
 	*)
 		# NOTE: Bootstrapping cabal-install 1.20.0.4 does not work.
 		# https://www.haskell.org/pipermail/cabal-devel/2014-December/009959.html
